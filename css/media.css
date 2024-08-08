@@ -1,0 +1,543 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header starts */
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .n_ticon{
+        font-size: 15px;
+    }
+    .n_logo{
+        font-size: 25px;
+    }
+    .menu ul li a{
+        margin-left: 0;
+        padding: 5px;
+    }
+    .n_sul{
+        padding: 2px;
+        width: 250px;
+    }
+    .n_sul[data-bs-popper] {
+        top: -2px;
+        left: 30px;
+    }
+    .n_sul input{
+        width: 200px;
+        padding-right: 0;
+    }
+    .media_sub {
+        margin: 0px -10px;
+    }
+
+    
+
+    /* slider starts */
+    .b_slider{
+        text-align: center;
+    }
+    .w_h1{
+        font-size: 30px;
+    }
+    .b_slider p{
+        line-height: 25px;
+    }
+    .b_slider a{
+        font-size: 13px;
+        padding: 13px 0;
+    }
+    .b_slider a i{
+        margin-left: 5px;
+    }
+    .c_btn, .s_cspan{
+        font-size: 14px;
+    }
+    .btn_slider{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .b_slider {
+        padding: 50px 0 100px;
+    }
+    
+    /* welcome starts */
+    .c_title h1{
+        font-size: 25px;
+    }
+    .c_p{
+        margin: 25px 0 35px 0;
+    }
+    .card_items{
+        margin-top: 0;
+        padding: 0 40px;
+    }
+    .card_icon i{
+        font-size: 45px;
+    }
+
+    
+    /* about starts */   
+    .about_outer{
+        text-align: center;
+    }
+    .about_text{
+        margin: 40px 0 0 0;
+    }
+    .w_h1 {
+        font-size: 25px;
+    }
+    .about_p{
+        margin: 20px 0 40px 0;
+
+    }
+    .about_p .p1{
+        line-height: 25px;
+    }
+    .a_button{
+        padding: 15px 0 0 0;
+    }
+    /* recentwork starts */
+    .r_ul{
+        margin: 60px 0 10px 0;
+    }
+    .r_item a{
+        padding: 5px 10px;
+    }
+    .c_recent{
+        padding: 0 50px;
+    }
+    
+    /* choose starts */
+    .ch_nipro{
+        margin: 0 0 30px 0;
+    }
+    .ch_item{
+        text-align: center;
+        padding: 0 5px 5px 0;
+    }
+    .ch_h2{
+        margin: 25px 0 10px 0;
+    }
+    .ch_h2 .ch_icon{
+        margin: 0 0 0 -160px;
+    }
+    .ch_h2 .ch_title{
+        font-size: 16px;
+        margin: 16px 0 0 10px;
+    }
+
+    /* work starts */
+    
+    .work_item{
+        margin: 0 0 0 0;
+        padding: 15px 90px;
+    }
+    .work_info{
+        text-align: center;
+    }
+    .work_h2{
+        font-size: 16px;
+        margin: 0 0 0 0;
+    }
+    .work_p{
+        margin: 0 0 0 0;
+    }
+    /* pricing starts */
+    
+    .pr_title{
+        margin: 0 0 60px 0;
+    }       
+    .pr_info{
+        margin: -12px 0 0 20px;
+    }
+    .pr_item{
+        margin: 30px 0 0 0;
+        border: 1px solid var(--ash);
+    }
+    .pr_link{
+        margin: 20px 0 20px 0;
+        width: 220px;
+    }
+    
+    /* ads starts */
+    
+    .ad_li{
+        margin: 0;
+        padding: 10px 30px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width:576px) and (max-width: 767.98px) {
+    /* header starts */
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .menu ul li a{
+        margin-left: 0;
+        padding: 5px;
+    }
+    .n_sul{
+        padding: 2px;
+        width: 250px;
+    }
+    .n_sul[data-bs-popper] {
+        top: 0;
+        left: 30px;
+    }
+    .n_sul input{
+        width: 200px;
+        padding-right: 0;
+    }
+    .media_sub {
+        margin: 0px -10px;
+    }
+
+    /* slider starts */
+    .b_slider{
+        text-align: center;
+    }
+    .w_h1{
+        font-size: 45px;
+    }
+    .b_slider a{
+        padding: 13px 0;
+    }
+    .b_slider a i{
+        margin-left: 5px;
+    }
+    .c_btn, .s_cspan{
+        font-size: 14px;
+    }
+    .btn_slider{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .b_slider {
+        padding: 50px 0 100px;
+    }
+
+    /* cards starts */
+    .c_p{
+        margin: 25px 0 35px 0;
+    }
+    .card_item{
+        margin-top: 30px;
+        padding: 0 5px;
+    }
+    .card_icon i{
+        font-size: 50px;
+    }
+    
+    /* about starts */   
+    .about_outer{
+        text-align: center;
+    }
+    .about_text{
+        margin: 40px 0 0 0;
+    }
+    .w_h1 {
+        font-size: 30px;
+    }
+    .about_p{
+        margin: 20px 0 40px 0;
+    }
+    .about_p .p1{
+        line-height: 25px;
+    }
+    .a_button{
+        padding: 15px 0 0 0;
+    }
+
+    /* recentwork starts */
+    .r_ul{
+        margin: 60px 0 10px 0;
+    }
+    .r_item a{
+        padding: 5px 10px;
+    }
+    .c_recent{
+        padding: 0 60px;
+    }    
+
+    /* choose starts */
+    .ch_nipro{
+        margin: 0 0 40px 0;
+    }
+    .ch_item{
+        padding: 0 5px 5px 0;
+    }
+    .ch_h2{
+        margin: 25px 0 10px 0;
+    }
+    .ch_h2 .ch_title{
+        font-size: 16px;
+        margin: 16px 0 0 10px;
+    }
+
+    /* work starts */
+    .work_info{
+        text-align: center;
+    }
+    .work_item{
+        margin: 30px 0 0 0 !important;
+    }
+    .work_h2{
+        margin: 5px 0 0 0;
+    }
+    .work_p{
+        margin: 5px 0 0 0;
+    }
+
+    /* pricing starts */
+    .pr_title{
+        margin: 0 0 60px 0;
+    }       
+    .pr_info{
+        margin: -12px 0 0 20px;
+    }
+    .pr_item{
+        margin: 30px 0 0 0;
+        border: 1px solid var(--ash);
+    }
+    .pr_link{
+        margin: 20px 0 20px 0;
+        width: 205px;
+    }
+    /* ads starts */
+    .ad_li{
+        padding: 10px 35px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width: 991.98px) { 
+
+    /* header starts */
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .n_sul[data-bs-popper] {
+        top: -10px;
+        left: 30px;
+    }
+    .menu ul li a{
+        margin-left: 0;
+    }
+    .n_search{
+        display: flex;
+    }
+
+
+    /* slider starts */
+    .b_slider{
+        text-align: center;
+    }
+    .w_h1{
+        font-size: 50px;
+    }
+    .c_btn, .s_cspan{
+        font-size: 14px;
+    }
+    .btn_slider{
+        width: 190px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .b_slider {
+        padding: 80px 0 120px;
+    }
+    /* welcome starts */
+    .c_p{
+        margin: 25px 0 40px 0;
+    }
+
+    /* cards starts */
+    .card_items{
+        padding: 0 5px;
+    }
+    .card_item{
+        padding: 0 5px;
+    }
+    /* about starts */   
+    .about_outer{
+        text-align: center;
+    }
+    .about_text{
+        margin: 40px 0 0 0;
+    }
+    .w_h1 {
+        font-size: 30px;
+    }
+    .about_p{
+        margin: 20px 0 40px 0;
+    }
+    .about_p .p1{
+        line-height: 25px;
+    }
+    .a_button{
+        padding: 15px 0 0 0;
+    }
+
+    /* recent work starts */
+
+    .r_ul{
+        margin: 80px 0 0 0;
+    }
+    .recent_image{
+        margin-top: 25px;
+    }
+
+    /* choose starts */
+    .ch_nipro{
+        margin: 0 0 60px 0;
+    }
+    .work_h2{
+        margin: 30px 0 15px 0;
+    }
+    .ch_h2 .ch_title{
+        font-size: 16px;
+        margin: 16px 0 0 10px;
+    }
+
+    
+    /* work starts */
+    .work_info{
+        text-align: center;
+    }
+    .work_h2{
+        margin: 5px 0 0 0;
+    }
+    .work_p{
+        margin: 5px 0 0 0;
+    }
+    
+    /* pricing starts */
+    .pr_title{
+        margin: 0 0 60px 0;
+    }       
+    .pr_info{
+        margin: -12px 0 0 45px;
+    }
+    .pr_item{
+        margin: 30px 0 0 0;
+        border: 1px solid var(--ash);
+    }
+    .pr_link{
+        margin: 20px 0 20px 0;
+        width: 240px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width:992px) and (max-width: 1199.98px) {
+    /* slider starts */
+    .w_h1{
+        font-size: 25px;
+    }
+    .btn_slider{
+        width: 190px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .b_slider {
+        padding: 100px 0 150px;
+    }
+    
+    /* welcome starts */
+    .c_p{
+        margin: 25px 0 50px 0;
+    }
+
+    /* about starts */   
+    .about_outer{
+        text-align: center;
+    }
+    .about_text{
+        margin: 0 0 0 10px;
+    }
+    .about_p{
+        margin: 20px 0 40px 0;
+    }
+    .about_p .p1{
+        line-height: 25px;
+    }
+    .a_button{
+        padding: 15px 0 0 0;
+    }
+    /* recent work starts */
+
+    .r_ul{
+        margin: 80px 0 0 0;
+    }
+    .recent_image{
+        margin-top: 25px;
+    }
+
+    /* choose starts */
+    .ch_nipro{
+        margin: 0 0 80px 0;
+    }
+    .ch_h2{
+        margin: 30px 0 15px 0;
+    }
+
+    /* work starts */
+    
+    .work_info{
+        text-align: center;
+    }
+    .work_h2{
+        margin: 5px 0 0 0;
+    }
+    .work_p{
+        margin: 5px 0 0 0;
+    }
+
+    /* pricing starts */       
+    .pr_info{
+        margin: -12px 0 0 15px;
+    }
+    .pr_link{
+        margin: 20px 0 20px 0;
+        width: 185px;
+    }
+    
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1200px) and (max-width: 1399.98px) {
+    /* slider starts */
+    .b_slider {
+        padding: 100px 0 150px;
+    }
+    /* about starts */
+    .about_p{
+        margin: 20px 0 35px 0;
+    }
+
+    /* pricing starts */       
+    .pr_info{
+        margin: -12px 0 0 20px;
+    }
+
+
+}
+
+/* XX-Large devices (large desktops 1400px) */
+@media (min-width: 1400px) {
+    /* slider starts */
+    /* .b_slider{
+        padding: 200px 0 600px; 
+     } */
+    /* about starts */
+    .about_p{
+        margin: 30px 0 100px 0;
+    }
+}
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
